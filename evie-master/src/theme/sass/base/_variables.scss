@@ -1,0 +1,55 @@
+// Colors
+$color1: #439F76;
+$color2: #12CA98;
+$color3: #F070A1;
+$color4: #16FFBD;
+$color5: #C44272;
+$color6: #EEEEEE;
+$color7: #011627;
+
+$primary: $color5;
+$secondary: $color1;
+$accent: $color3;
+$primary-dark: darken($primary,8%);
+$text: $color5;
+$text-dark: $color7;
+$background: $color4;
+$background-alt: $color2;
+$background-dark: $color5;
+$line: $color2;
+$success: $accent;
+$error: tomato;
+
+// Typography
+$font: "Comfortaa",cursive;
+$font-size: 16px;
+$line-height: 1.7;
+$light: 300;
+$normal: 400;
+$bold: 700;
+
+// Other variables
+$radius: 30px;
+
+// Containers
+$containerWidth: 88%; // Percentage of screen width
+$containerMax: 1080px; // Largest fixed width
+$text-container: 640px; // Limit texts for readability
+
+// Media queries
+$tablet-width: 600px !default; // Tablets
+$desktop-width: 992px !default; // Desktops & Laptops
+$huge-width: 1400px !default; // Large Desktops
+
+/* Components */
+
+// Navigation bar
+$navbar-height: 60px; // Height for navigation globally
+$navbar-height-extended: 70px; // Extended height for navigation => Used on landing
+
+// Hero
+$hero-color: $background;
+$hero-shadow: 0 4px 11px rgba(124,146,169,0.5);
+$hero-color-opacity: 0.96;
+$hero-mask-opacity: 0.66;
+$hero-down-size: 1rem; 
